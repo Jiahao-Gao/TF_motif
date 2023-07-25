@@ -10,10 +10,9 @@
         "version": "5.4.1",
         "release": "Sat Aug 21 19:23:23 2021 -0700",
         "cmd": [
-          "streme", "--p", "../result/FlyFasta2/al_al-GFP_embryonic_1.fasta",
-          "--oc",
-          "../result/FlySTREME_removeHOT_singleton2/al_al-GFP_embryonic_1/",
-          "--verbosity", "1"
+          "streme", "--p",
+          "../result/FlyFasta_53/al_al-GFP_embryonic_1.fasta", "--oc",
+          "../result/FlySTREME_53/al_al-GFP_embryonic_1/", "--verbosity", "1"
         ],
         "options": {
           "strands": "both",
@@ -123,7 +122,7 @@
           "freqs": [0.257, 0.243, 0.243, 0.257]
         },
         "train_positives": {
-          "file": "../result/FlyFasta2/al_al-GFP_embryonic_1.fasta",
+          "file": "../result/FlyFasta_53/al_al-GFP_embryonic_1.fasta",
           "count": 129,
           "maxlen": 330,
           "positions": 42570
@@ -167,7 +166,7 @@
             "test_evalue": "1.5e+000",
             "test_dtc": -1.0,
             "test_bernoulli": -1,
-            "elapsed_time": 7.8,
+            "elapsed_time": 25.5,
             "total_sites": 39,
             "site_distr": [
               0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
@@ -229,7 +228,7 @@
             "test_evalue": "2.0e+000",
             "test_dtc": -1.0,
             "test_bernoulli": -1,
-            "elapsed_time": 8.6,
+            "elapsed_time": 26.1,
             "total_sites": 30,
             "site_distr": [
               0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -286,7 +285,7 @@
             "test_evalue": "2.3e+000",
             "test_dtc": -1.0,
             "test_bernoulli": -1,
-            "elapsed_time": 6.9,
+            "elapsed_time": 24.8,
             "total_sites": 27,
             "site_distr": [
               0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -330,7 +329,7 @@
         "stop_reason": "Stopped because 3 consecutive motifs exceeded the p-value threshold (0.05).",
         "runtime": {
           "host": "r205u07n12.mccleary.ycrc.yale.edu",
-          "cpu": 9.14
+          "cpu": 26.34
         }
       };
     </script>
